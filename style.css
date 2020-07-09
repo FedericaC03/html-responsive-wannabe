@@ -76,16 +76,16 @@ img {
  @media screen and (max-width: 420px) {
 
    body {
-     font-size: 30px;
+     font-size: 35px;
    }
 
    h1 {
      font-size: 80px;
-     color: red;
+     color: white;
    }
 
    h3 {
-    font-size: 50px;
+    font-size: 60px;
     color:blue;
    }
 
@@ -108,4 +108,30 @@ img {
      width: 100%;
      margin-bottom: 30px;
    }
+
+   .row {
+    background-image: linear-gradient(to right, #4568dc, #b06ab3);
+   }
  }
+    /* /MEDIA QUERY 420PX */
+
+    /* MEDIA QUERY IPAD */
+@media (min-width: 421px) and (max-width: 768px) {
+  body {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 80px;
+    color: red;
+  }
+  h3 {
+   font-size: 60px;
+   color:blue;
+  }
+  .row {
+   background-image: linear-gradient(to right, #36d1dc , #5b86e5);
+  }
+}
+
+    /*/ MEDIA QUERY IPAD */
