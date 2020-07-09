@@ -114,7 +114,6 @@ img {
    }
  }
     /* /MEDIA QUERY 420PX */
-
     /* MEDIA QUERY IPAD */
 @media (min-width: 421px) and (max-width: 768px) {
   body {
@@ -125,13 +124,14 @@ img {
     font-size: 80px;
     color: red;
   }
+
   h3 {
    font-size: 60px;
    color:blue;
   }
+
   .row {
    background-image: linear-gradient(to right, #36d1dc , #5b86e5);
   }
 }
-
     /*/ MEDIA QUERY IPAD */
